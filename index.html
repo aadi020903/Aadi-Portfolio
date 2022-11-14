@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aditya's Portfolio</title>
+    <link rel="stylesheet" href="style.css"/>
+    <script src="https://kit.fontawesome.com/7b345efb42.js" crossorigin="anonymous"></script>
+
+  
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/LOGO.png" class="LOGO" />
+                <ul id="sidemenu">
+                    <li><a href="#header">HOME</a></li>
+                    <li><a href="#about">ABOUT</a></li>
+                    <li><a href="#services">SERVICES</a></li>
+                    <li><a href="#portfolio">PORTFOLIO</a></li>
+                    <li><a href="#contact">CONTACT</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <marquee behavior="slide" scrollamount="30">
+                    <p>
+                     <font size="20">Web Developer</font> 
+                    </p>
+                    <h1>
+                        Hii, I am <span><b>Aditya Sharma</b></span><br />from India
+                    </h1>
+                </marquee>
+            </div>
+        </div>
+    </div>
+    <!----------ABOUT------------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/abc.jpg" width="450px" />
+                </div>
+                <div class="about-col-2"><br>
+                    <h1 class="subtitle"><font size="60">About Me :</font></h1>
+                    <br>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum,
+                        sapiente. Excepturi ipsa molestiae omnis culpa neque dignissimos
+                        blanditiis excepturi itaque ipsum! Lorem ipsum dolor sit amet
+                        consectetur adipisicing elit. Ad, recusandae eius omnis, minima,
+                        tempora harum voluptates eveniet quidem sequi modi fuga suscipit.
+                        Dolor autem sapiente, reprehenderit natus animi in nobis!
+                    </p>
+                    <br>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum,
+                        sapiente. Excepturi ipsa molestiae omnis culpa neque dignissimos
+                        fugiat ipsam modi sed, cum eaque quod eius, soluta ab odit enim
+                        qui! Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Cumque dolore, quaerat, quod nobis id praesentium eligendi
+                        voluptatem inventore illo assumenda quasi ea fugit fuga sint sunt
+                        blanditiis excepturi itaque ipsum! Lorem ipsum dolor sit amet
+                        consectetur adipisicing elit.
+                    </p>
+                    <br>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum,
+                        sapiente. Excepturi ipsa molestiae omnis culpa neque dignissimos
+                        fugiat ipsam modi sed, cum eaque quod eius, soluta ab odit enim
+                        qui! Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Cumque dolore, quaerat, quod nobis id praesentium eligendi
+                        voluptatem inventore illo assumenda quasi ea fugit fuga sint sunt
+                        
+                    </p>
+                    <br>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                        <p class="tab-links" onclick="opentab('achivement')">Achivement</p>
+                    </div>
+                    <br>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul><font size="4">
+                            <li><span>UI/UX</span><br />Web Designing</li>
+                            <li><span>C++</span><br />OOPs Concept</li>
+                            <li><span>Python</span><br />Basics of Python</li>
+                            <li><span>Html/css</span><br />Frontend Development</li>
+                        </font></ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul><font size="4">
+                            <li>
+                                <span>2022 persuing</span><br />
+                                UI/UX Web Designing
+                            </li>
+                            <li>
+                                <span>2022</span><br>
+                                OOPs Concept in COLLEGE
+                            </li>
+                            <li><span>2022</span><br />Basics of Python ONLINE</li>
+                            <li><span>2022/css</span><br />Training at Institute</li>
+                        </font></ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul><font size="4">
+                            <li>
+                                <span>2022*</span><br />B.tech <big>BTU</big><br />LaxmiDevi
+                                Institue Of Engineering and Technology,Alwar
+                            </li>
+                            <li><span>2022</span><br />RS-CIT<big></big></li>
+                            <li>
+                                <span>2021</span><br />12th <big>CBSE</big><br />Mount Litera
+                                Zee School,Alwar
+                            </li>
+                            <li>
+                                <span>2019</span><br />10th <big>CBSE</big><br />Mount Litera
+                                Zee School,Alwar
+                            </li>
+                        </font></ul>
+                    </div>
+                    <div class="tab-contents" id="achivement">
+                        <ul><font size="4">
+                            <li>
+                                <span>Sportz</span><br />Basketball<br />Chess<br />Table
+                                Tennis<br />Football<br />Badminton
+                            </li>
+                            <li>
+                                <span>Cultural</span><br />Singing <br />
+                                Dancing<br />Instrumental<br />Drawing
+                            </li>
+                        </font></ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-------services------------>
+<div id="services">
+    <div class="container">
+        <h1 class="subtitle"><font size="60">My Services :</font></h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-crop-simple"></i>
+                <h2>Web Design &rarr;</h2><br>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa molestiae iusto est ab odio voluptatibus amet sequi blanditiis libero non dolores provident eveniet eius ullam facilis asperiores, maxime quisquam et commodi corrupti vitae atque mollitia modi dolorum? Necessitatibus consequatur dignissimos iste est accusantium temporibus adipisci quae natus explicabo quos! Commodi?
+                </p>
+                <a href="#">Learn More..</a>
+            </div>
+            <div>
+                <i class="fa-sharp fa-solid fa-file-shield"></i>
+                <h2>OOPs Concept &rarr;</h2><br>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa molestiae iusto est ab odio voluptatibus amet sequi blanditiis libero non dolores provident eveniet eius ullam facilis asperiores, maxime quisquam et commodi corrupti vitae atque mollitia modi dolorum? Necessitatibus consequatur dignissimos iste est accusantium temporibus adipisci quae natus explicabo quos! Commodi?
+                </p>
+                <a href="#">Learn More..</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-google-play"></i>
+                <h2>App Design &rarr;</h2><br>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa molestiae iusto est ab odio voluptatibus amet sequi blanditiis libero non dolores provident eveniet eius ullam facilis asperiores, maxime quisquam et commodi corrupti vitae atque mollitia modi dolorum? Necessitatibus consequatur dignissimos iste est accusantium temporibus adipisci quae natus explicabo quos! Commodi?
+                </p>
+                <a href="#">Learn More..</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--------------portfolio----------->
+
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work :</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/mm.png">
+                <div class="layer">
+                    <h1>Social App</h1>
+                    <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem omnis repudiandae ullam deserunt culpa ut suscipit. Culpa veniam dolor et facere incidunt atque sit cumque ut libero. Repellendus, eaque inventore voluptates ab delectus nulla!</P>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/nn.jpg">
+                <div class="layer">
+                    <h1>Music App</h1>
+                    <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem omnis repudiandae ullam deserunt culpa ut suscipit. Culpa veniam dolor et facere incidunt atque sit cumque ut libero. Repellendus, eaque inventore voluptates ab delectus nulla!</P>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>       
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/bb.jfif">
+                <div class="layer">
+                    <h1>Shopping site</h1>
+                    <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem omnis repudiandae ullam deserunt culpa ut suscipit. Culpa veniam dolor et facere incidunt atque sit cumque ut libero. Repellendus, eaque inventore voluptates ab delectus nulla!</P>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See More</a> 
+    </div>
+</div>
+
+<!-------contact---------->
+
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me :</h1>
+                <p>
+                    <a style="text-decoration: none; color: #fff;" href="mailto:adityaomsharma2004@gmail.com"> 
+                         <i class="fa-solid fa-envelope"></i> adityaomsharma2004@gmail.com
+                    </a>
+                </p>
+                <p>
+                    <a href="tel:+917014973193" style="text-decoration: none; color: #fff;"><i class="fa-solid fa-phone"> </i> (+91) 7877705896</a></p>
+                <p><i class="fa-brands fa-whatsapp"> </i> (+91) 7877705896</p>
+                <div class="social-icons" >
+                    <a href="https://instagram.com/_a_d_i_t_y_a_.02?igshid=YmMyMTA2M2Y="><i class="fa-brands fa-solid fa-instagram"></i></a>
+                
+                    <a href="https://discord.gg/bW3RqBYey6"><i class="fa-brands fa-discord"> </i></a>
+                
+            
+                    <a href="https://www.linkedin.com/in/aditya-sharma-209a9b249"><i class="fa-brands fa-linkedin"></i></a>
+                
+                
+                    <a href="https://github.com/aadi020903"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://instagram.com/_a_d_i_t_y_a_.02?igshid=YmMyMTA2M2Y="><i class="fas fa-paper-plane"></i></a>
+                </div>
+                <a href="images/form.html" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p><b>Copyright <i class="fa-solid fa-copyright"></i> Aditya. made with <i class="fa-solid fa-heart"></i></b></p>
+    </div>
+</div>
+
+
+<script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link"); 
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+</script>
+<script>
+    var sidemeu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemeu.style.right="0";
+    }
+    
+    function closemenu(){
+        sidemeu.style.right="-200px";
+    }
+
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbxekDeRQr1c-5_K8TGt8diOKlPpB3EVCe4CSF_m82tNDwt8oJWxrjYRs-oIzwqJ8ao/exec'  
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message Sent Successfully!!!"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+</body>
+
+</html>
